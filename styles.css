@@ -1,0 +1,184 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5{ 
+    font-weight:900;
+   
+}
+p{
+    color: #8f8f8f;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    color: rgb(243, 122, 223);
+}
+
+/* Headings */
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.section-heading{
+    margin: auto;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Navbar */
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'rubik', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+/* Containers */
+.container-fluid{
+    padding:7% 15%;
+}
+
+
+
+/* Title */
+#title{
+    background-color: #fb69c3;
+
+   
+
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+    color: #fff;
+    text-align: left;
+}
+.title-img{
+    
+    
+    transform: rotate(25deg);
+    position:absolute;
+    width: 22%;
+    right: 21%;
+
+}
+
+/*download button*/
+
+.order-btn{
+   margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+#features{
+    background-color: #fff;
+    position: relative;  
+}
+.feature-icon{
+    color: #ff00bb;
+    /* font-size: 4rem; */
+    margin-bottom: 1rem;
+}
+.feature-icon:hover{
+    color: #fb69c3;
+}
+.feature-box{
+    padding: 10px;
+}
+#testimonials{
+    background-color: #c32899;
+    
+    color: #ffff;
+}
+
+/* Testimonials */
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+
+}
+.testimonial-text{
+    color: #ffff;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Press */
+
+#press{
+    background-color: #c32899;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* achievements */
+
+#achievements{
+    padding: 100px;
+}
+.achievements-card{
+    padding: 2% 3%;
+}
+
+/* Cta */
+
+#cta{
+    background-color: #fb69c3;
+    font-weight: 700;
+    line-height: 2;
+}
+.cta{
+    color: #ffff;
+    font-size: 3.5rem;
+    margin: 5% 3% 7% 0;
+ }
+ .address{
+  line-height: 2;
+  color: #000;
+ }
+
+ /* Footers */
+
+ .f-icons{
+    margin: 20px 10px;
+    color: #000
+ }
+ 
+
+ /* Media */
+
+@media  only screen and (max-width: 1000px) {
+    #title, .title-img{
+        
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        text-align: center;
+    }
+    .address{
+        text-align: center;
+    }
+    
+}
